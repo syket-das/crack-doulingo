@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+
+    <title>Describe A Image</title>
+
+    <style>
+        .text-center {
+            text-align: center;
+            display: block;
+        }
+
+        .dropdown,
+        .btn.btn-secondary {
+            display: block;
+            width: 100%;
+        }
+
+        body {
+
+            background-color: #eee;
+        }
+
+        table th,
+        table td {
+            text-align: center;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #c5dddf
+        }
+
+        .pagination li:hover {
+            cursor: pointer;
+        }
+        .des-img{
+            width: 50%;
+        
+        }
+
+  
+    </style>
+</head>
+
+<body>
+    <!--****************** Nav Bar******************  -->
+    
+    
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <pre><b>Crack-Doulingo</b></pre>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 topN">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">
+                            <pre><b>Home</b></pre>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aboutTest.html">
+                            <pre><b>All You Need to Know</b></pre>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown sp">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Practice here
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./dictation.html">Dictation</a></li>
+                            <li><a class="dropdown-item" href="./y-n-vocab.html">Yes-No Vocabulary</li>
+                            <li><a class="dropdown-item" href="./describe-img.html">describe img</a></li>
+                            <li><a class="dropdown-item" href="./c-test.html">C-Test</a></li>
+                            <li><a class="dropdown-item" href="./talk-write.html">Describe your opinion</a></li>
+    
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">
+                            <pre><b>Contact Us</b></pre>
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    
+    
+    
+    <!--****************** Nav Bar******************  -->
+
+
+    <h1 class="text-center">Describe A Image</h1><hr>
+
+    <div class="container">
+        <h6>Select Number Of Rows</h6>
+        <div class="form-group">
+            <!--		Show Numbers Of Rows 		-->
+            <select class="form-control" name="state" id="maxRows">
+                <option value="5000">Show ALL Rows</option>
+                <option value="5">
+                    <p>number of rows showing: </p>5
+                </option>
+                <option value="10">
+                    <p>number of rows showing: </p>10
+                </option>
+                <option value="15">
+                    <p>number of rows showing: </p>15
+                </option>
+                <option value="20">
+                    <p>number of rows showing: </p>20
+                </option>
+                <option value="50">
+                    <p>number of rows showing: </p>50
+                </option>
+                <option value="70">
+                    <p>number of rows showing: </p>70
+                </option>
+                <option value="100">
+                    <p>number of rows showing: </p>100
+                </option>
+            </select>
+
+        </div>
+
+
+        <!-- ****************table**************** -->
+
+
+        <table class="table table-striped table-class " id="table-id">
+
+
+            <tbody>
+                <tr>
+                    <td class="text-center">All Practice questions are here</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <div class="container des-img">
+                                <img src="../images/duolingo-describe-image.webp" class="w-100"  alt="">
+                            </div>
+
+
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">
+                                        The image is a beautiful illustration of a clear blue lake surrounded by mountains in the background and a lush green
+                                        forest on the right side. The shadows of the mountains, clouds, and trees can be seen in the clear lake water. The
+                                        mountains are deep grey and orange with little snow on them. It looks like the photo has been taken by a professional
+                                        photographer.
+
+                                    </p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+
+
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ****************table**************** -->
+
+
+
+        <!--		Start Pagination -->
+        <div class='pagination-container'>
+            <nav>
+                <ul class="pagination">
+
+                    <li data-page="prev">
+                        <span>
+                            <button>Prev</button>
+                            <span class="sr-only">
+                            </span>
+                        </span>
+                    </li>
+                    <!--	Here the JS Function Will Add the Rows -->
+                    <li data-page="next" id="prev">
+                        <span><button>Next</button> <span class="sr-only"></span></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div> <!-- 		End of Container -->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- ***********************native script*********************** -->
+    <script src="../JS/pagination.js"></script>
+
+</body>
+
+</html>

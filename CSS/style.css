@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.table-dictation tr td{
+    margin: 10px 0;
+}
+
+@media screen and (min-width:768px) {
+    .topN{
+        display: flex;
+        align-items: center;
+    margin-right: 20%;
+}
+
+.topN > li{
+    margin: 0 5%;
+    position: relative;
+    
+}
+
+.sp{
+    position: absolute;
+    top: -8px;
+}
+
+
+
+}
+
