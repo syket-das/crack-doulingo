@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/home/HomePage';
 import AboutDoulingo from './pages/aboutDoulingo/AboutDoulingo';
 import Footer from './components/footer/Footer';
+import DictationPage from './pages/dictation/DictationPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes >
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutDoulingo" element={<AboutDoulingo />} />
+          <Route path="/dictation" element={<DictationPage />} />
         </Routes>
         <Footer />
       </Router>

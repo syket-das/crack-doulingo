@@ -21,7 +21,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/aboutDoulingo">All About Doulingo</Nav.Link>
 
             <NavDropdown title="Practice Here" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Dictation</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/dictation">Dictation</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                Yes/No Vocabulary
               </NavDropdown.Item>
